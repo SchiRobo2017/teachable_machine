@@ -9,7 +9,7 @@
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "https://github.com/SchiRobo2017/teachable_machine/blob/main/";
+    const URL = "./";
     let model, webcam, ctx, labelContainer, maxPredictions;
 
     async function init() {
