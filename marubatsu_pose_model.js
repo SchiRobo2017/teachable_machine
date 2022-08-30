@@ -9,7 +9,7 @@
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "./";
+    const URL = "https://raw.githubusercontent.com/SchiRobo2017/teachable_machine/main/marubatsu_pose_model.js/";
     let model, webcam, ctx, labelContainer, maxPredictions;
 
     async function init() {
